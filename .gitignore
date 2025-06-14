@@ -1,6 +1,6 @@
 /.idx
 /.vscode
 /facebot_web/Server/chrome_profile
-
+/facebot_web/Server/venv
 
 */facebot_web/client/node_modules
