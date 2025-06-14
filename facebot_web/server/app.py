@@ -1,6 +1,6 @@
 from flask import Flask
-from server.routes import selenium_nodes  # Importa el blueprint
-from server.selenium_utils import SeleniumManager
+from routes import selenium_nodes  # Importa el blueprint
+from selenium_utils import SeleniumManager
 
 app = Flask(__name__)
 app.register_blueprint(selenium_nodes)  # Registra el blueprint
